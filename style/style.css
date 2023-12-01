@@ -1,0 +1,76 @@
+body{
+  background-image: url('../images/uwiw.jpg');
+}
+body, h1, h2, h3, p, table {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+nav {
+  background-color: #2c3e50; 
+  color: white;
+}
+
+
+.container {
+  margin-top: 40px;
+}
+
+
+h2, h3 {
+  color: #000000;
+}
+
+
+#todo-section {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #ecf0f1;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#newTodo {
+  padding: 10px;
+  border: 1px solid #bdc3c7; 
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #3498db; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.table {
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #2c3e50; 
+  color: white;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+
+.delete-btn, .edit-btn {
+  cursor: pointer;
+  margin-right: 10px;
+  color: #e74c3c; 
+}
+
