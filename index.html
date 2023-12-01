@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="shortcut icon" href="https://static.vecteezy.com/system/resources/previews/019/519/243/original/to-do-list-icon-for-your-website-mobile-presentation-and-logo-design-free-vector.jpg" type="image/x-icon">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bestlist</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style/style.css">
-  <link rel="stylesheet" href="style/todo.css">
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
   <nav class="navbar navbar-light bg-light">
@@ -18,15 +18,15 @@
 
   <div class="container mt-4">
     <h2>Welcome to Bestlist</h2>
-    <p>This is a simple Todo List Website</p>
+    <p>Don't forget to List</p>
 
     <div id="todo-section">
       <h3>Todo List</h3>
       <table id="todo-table" class="table">
         <thead>
           <tr>
+            <th>Done</th>
             <th>Task</th>
-            <th>Action</th>
           </tr>
         </thead>
         <tbody id="todo-body">
@@ -34,7 +34,7 @@
       </table>
       <div>
         <input type="text" id="newTodo" placeholder="Add a new todo">
-        <button onclick="addTodo()">New Task</button>
+        <button  onclick="addTodo()">New Task</button>
       </div>
     </div>
   </div>
@@ -47,6 +47,6 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="script/todo.js"></script>
+  <script src="./todo.js"></script>
 </body>
 </html>
